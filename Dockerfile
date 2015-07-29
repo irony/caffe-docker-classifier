@@ -1,10 +1,6 @@
-FROM tleyden5iwx/caffe-cpu-master
+FROM visionai/clouddream
 WORKDIR /opt/caffe
-RUN git checkout -- Makefile
-RUN git pull
-RUN make
 RUN ./data/ilsvrc12/get_ilsvrc_aux.sh
-ADD models /opt/caffe/models
 RUN mkdir /input
 VOLUME ["/input"]
 CMD ./build/examples/cpp_classification/classification.bin \
