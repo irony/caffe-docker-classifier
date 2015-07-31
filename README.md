@@ -5,7 +5,7 @@ This is a wrapper of the Machine Learning lib Caffe running its classifier demo 
 
 ## Demo
 
-[http://classifier.irony.svc.tutum.io:5000](classifier.irony.svc.tutum.io)
+[classifier.irony.svc.tutum.io](http://classifier.irony.svc.tutum.io:5000)
 
 
 ## Dependencies
