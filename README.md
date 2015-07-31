@@ -3,6 +3,11 @@ GoogleNet Classifier
 
 This is a wrapper of the Machine Learning lib Caffe running its classifier demo with GoogleNet model pre-trained. No other dependencies than docker.
 
+## Demo
+
+[classifier.irony.svc.tutum.io:5000](classifier.irony.svc.tutum.io)
+
+
 ## Dependencies
 
  - Docker (Use docker-machine if you are running on OSX or Windows)
