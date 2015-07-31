@@ -1,7 +1,7 @@
 GoogleNet Classifier
 =======================
 
-This is a wrapper of the Machine Learning lib Caffe running its classifier demo with GoogleNet model pre-trained. No other dependencies
+This is a wrapper of the Machine Learning lib Caffe running its classifier demo with GoogleNet model pre-trained. No other dependencies than docker.
 
 ## Dependencies
 
@@ -19,66 +19,65 @@ Open the docker ip in a web browser
 
 or use the api:
 
-    curl http://192.168.99.100:5000/classify_url?imageurl=http://lorempixel.com/400/200/sports/2/
+    curl http://192.168.99.100:5000/classify_url?imageurl=http://lorempixel.com/400/200/animals/2/
 
     or POST to /classify_upload
 
 ### Output:
 
-  ![http://lorempixel.com/400/200/sports/2/](http://lorempixel.com/400/200/sports/2/)
+  ![http://lorempixel.com/400/200/animals/2/](http://lorempixel.com/400/200/animals/2/)
 
 
-  {
-    "result": [
-    true,
-    [
-      [
-        "snorkel",
-        "0.70202"
-      ],
-      [
-        "scuba diver",
-        "0.07712"
-      ],
-      [
-        "killer whale",
-        "0.02952"
-      ],
-      [
-        "dugong",
-        "0.02490"
-      ],
-      [
-        "stingray",
-        "0.02043"
-      ]
-    ],
-    [
-      [
-        "snorkel",
-        "1.52335"
-      ],
-      [
-        "breathing device",
-        "1.38925"
-      ],
-      [
-        "scuba diver",
-        "0.74861"
-      ],
-      [
-        "diver",
-        "0.73762"
-      ],
-      [
-        "explorer",
-        "0.72662"
-      ]
-    ],
-    "4.667"
-    ]
-  }
-
+      {
+        "result": [
+          true,
+          [
+            [
+              "gorilla",
+              "0.42251"
+            ],
+            [
+              "baboon",
+              "0.24627"
+            ],
+            [
+              "patas",
+              "0.13308"
+            ],
+            [
+              "spider monkey",
+              "0.06061"
+            ],
+            [
+              "macaque",
+              "0.05365"
+            ]
+          ],
+          [
+            [
+              "primate",
+              "2.02654"
+            ],
+            [
+              "anthropoid ape",
+              "1.33458"
+            ],
+            [
+              "ape",
+              "1.30788"
+            ],
+            [
+              "monkey",
+              "1.27961"
+            ],
+            [
+              "great ape",
+              "1.22666"
+            ]
+          ],
+          "4.565"
+        ]
+      }
 
 
 ## Next steps
