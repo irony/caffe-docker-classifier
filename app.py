@@ -96,13 +96,13 @@ def allowed_file(filename):
 class ImagenetClassifier(object):
     default_args = {
         'model_def_file': (
-            '{}/models/bvlc_googlenet/deploy.prototxt'.format(REPO_DIRNAME)),
+            '{}/models/finetune_flickr_style/deploy.prototxt'.format(REPO_DIRNAME)),
         'pretrained_model_file': (
-            '{}/models/bvlc_googlenet/bvlc_googlenet.caffemodel'.format(REPO_DIRNAME)),
+            '{}/models/finetune_flickr_style/finetune_flickr_style.caffemodel'.format(REPO_DIRNAME)),
         'mean_file': (
             '{}/python/caffe/imagenet/ilsvrc_2012_mean.npy'.format(REPO_DIRNAME)),
         'class_labels_file': (
-            '{}/data/ilsvrc12/synset_words.txt'.format(REPO_DIRNAME)),
+            '{}/examples/finetune_flickr_style/style_names.txt'.format(REPO_DIRNAME)),
         'bet_file': (
             '{}/data/ilsvrc12/imagenet.bet.pickle'.format(REPO_DIRNAME)),
     }
