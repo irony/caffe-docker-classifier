@@ -159,18 +159,7 @@ class ImagenetClassifier(object):
             ]
             logging.info('result: %s', str(meta))
 
-            # Compute expected information gain
-            expected_infogain = np.dot(
-                self.bet['probmat'], scores[self.bet['idmapping']])
-            expected_infogain *= self.bet['infogain']
-
-            # sort the scores
-            infogain_sort = expected_infogain.argsort()[::-1]
-            bet_result = [(self.bet['words'][v], '%.5f' % expected_infogain[v])
-                          for v in infogain_sort[:5]]
-            logging.info('bet result: %s', str(bet_result))
-
-            return (True, meta, bet_result, '%.3f' % (endtime - starttime))
+            return (True, meta, '%.3f' % (endtime - starttime))
 
         except Exception as err:
             logging.info('Classification error: %s', err)
