@@ -1,0 +1,140 @@
+Detailed
+Pastel
+Melancholy
+Noir
+HDR
+Vintage
+Long Exposure
+Horror
+Sunny
+Bright
+Hazy
+Bokeh
+Serene
+Texture
+Ethereal
+Macro
+Depth of Field
+Geometric Composition
+Minimal
+Romantic
+2  Detailed
+2  Pastel
+2  Melancholy
+2  Noir
+2  HDR
+2  Vintage
+2  Long Exposure
+2  Horror
+2  Sunny
+2  Bright
+2  Hazy
+2  Bokeh
+2  Serene
+2  Texture
+2  Ethereal
+2  Macro
+2  Depth of Field
+2  Geometric Composition
+2  Minimal
+2  Romantic
+3  Detailed
+3  Pastel
+3  Melancholy
+3  Noir
+3  HDR
+3  Vintage
+3  Long Exposure
+3  Horror
+3  Sunny
+3  Bright
+3  Hazy
+3  Bokeh
+3  Serene
+3  Texture
+3  Ethereal
+3  Macro
+3  Depth of Field
+3  Geometric Composition
+3  Minimal
+3  Romantic
+4  Detailed
+4  Pastel
+4  Melancholy
+4  Noir
+4  HDR
+4  Vintage
+4  Long Exposure
+4  Horror
+4  Sunny
+4  Bright
+4  Hazy
+4  Bokeh
+4  Serene
+4  Texture
+4  Ethereal
+4  Macro
+4  Depth of Field
+4  Geometric Composition
+4  Minimal
+4  Romantic
+5  Detailed
+5  Pastel
+5  Melancholy
+5  Noir
+5  HDR
+5  Vintage
+5  Long Exposure
+5  Horror
+5  Sunny
+5  Bright
+5  Hazy
+5  Bokeh
+5  Serene
+5  Texture
+5  Ethereal
+5  Macro
+5  Depth of Field
+5  Geometric Composition
+5  Minimal
+5  Romantic
+6  Detailed
+6  Pastel
+6  Melancholy
+6  Noir
+6  HDR
+6  Vintage
+6  Long Exposure
+6  Horror
+6  Sunny
+6  Bright
+6  Hazy
+6  Bokeh
+6  Serene
+6  Texture
+6  Ethereal
+6  Macro
+6  Depth of Field
+6  Geometric Composition
+6  Minimal
+6  Romantic
+7  Detailed
+7  Pastel
+7  Melancholy
+7  Noir
+7  HDR
+7  Vintage
+7  Long Exposure
+7  Horror
+7  Sunny
+7  Bright
+7  Hazy
+7  Bokeh
+7  Serene
+7  Texture
+7  Ethereal
+7  Macro
+7  Depth of Field
+7  Geometric Composition
+7  Minimal
+7  Romantic

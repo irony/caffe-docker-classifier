@@ -102,7 +102,7 @@ class ImagenetClassifier(object):
         'mean_file': (
             '{}/python/caffe/imagenet/ilsvrc_2012_mean.npy'.format(REPO_DIRNAME)),
         'class_labels_file': (
-            '{}/examples/finetune_flickr_style/style_names.txt'.format(REPO_DIRNAME)),
+            '{}/styles.txt'.format(REPO_DIRNAME)),
         'bet_file': (
             '{}/data/ilsvrc12/imagenet.bet.pickle'.format(REPO_DIRNAME)),
     }
